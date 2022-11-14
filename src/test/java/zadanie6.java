@@ -52,7 +52,7 @@ public class zadanie6 {
         List< WebElement> links = driver.findElements(By.tagName("a"));
         System.out.println("Ilosc linkow na stronie = " + links.size());
         List<WebElement> images = driver.findElements(By.tagName("img"));
-        System.out.println("Ilosc obrazkow na stronie = " + images);
+        System.out.println("Ilosc obrazkow na stronie = " + images.size());
 
     }
 
